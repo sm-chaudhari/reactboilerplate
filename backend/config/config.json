@@ -1,0 +1,14 @@
+{
+    "development": {
+        "config_id": "development",
+        "node_port": 8080,
+        "database": "boilerplate",
+        "URI": "mongodb://localhost:27017/boilerplate"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "boilerplate_prod",
+        "URI": "mongodb://localhost:27017/boilerplate_prod"
+    }
+}
